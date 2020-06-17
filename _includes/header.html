@@ -1,6 +1,17 @@
+{% assign hf = site.data.headerfooter%}
 <header class="bg-rr">
-	<div class="w-max">
-		<div class=""><img src="" alt="logo"></div>
-		<div class=""></div>
+	<div class="w-max h-wrapper flex fj-bw fy-center">
+		<div class=""><img src="{{hf.logo}}" alt="logo"></div>
+		<div class="">
+			<nav>
+				<ul class="p-0 m-0 flex nul">
+					{%for i in hf.nav%}
+					<li class="mx-2 ">
+						<a href="{{i.url}}" class="tdn text-w">{{i.title}}</a>
+					</li>
+					{%endfor%}
+				</ul>
+			</nav>
+		</div>
 	</div>
 </header>
