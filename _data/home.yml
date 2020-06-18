@@ -1,0 +1,15 @@
+# hero
+logo: /assets/imgs/logo-white.png
+boxes:
+  - icon: 
+    t: Design/Creative
+    u: 
+  - icon:
+    t: Signage/Displays
+    u: 
+  - icon:
+    t: Marketing/Web
+    u: 
+  - icon:
+    t: Events/Promotion
+    u: 

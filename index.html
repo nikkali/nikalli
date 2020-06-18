@@ -1,3 +1,20 @@
 ---
 layout: default
 ---
+
+{% assign h = site.data.home%}
+
+<div class="hero text-center flex items-center">
+	<div class="m-auto">
+		<img src="{{h.logo}}" class="m-auto">
+		<h1 class="text-w futura m-0">{{site.description}}</h1>
+		<div class="flex boxcontainer fj-bw">
+			{%for b in h.boxes%}
+			<div class="box w-half">
+				<span class="block"></span>
+				<h3 class="text-w">{{b.t}}</h3>
+			</div>
+			{%endfor%}
+		</div>
+	</div>
+</div>
