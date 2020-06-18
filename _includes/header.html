@@ -1,17 +1,31 @@
 {% assign hf = site.data.headerfooter%}
-<header class="bg-rr">
-	<div class="w-max h-wrapper flex fj-bw fy-center">
-		<div class=""><img src="{{hf.logo}}" alt="logo"></div>
-		<div class="">
+<header class="">
+	<div class="p2 w-max h-wrapper flex fj-bw fy-center">
+		<div class=""><img src="{{hf.logo}}" alt="logo" class="hlogo"></div>
+		<div class="hiddenmbl">
 			<nav>
 				<ul class="p-0 m-0 flex nul">
 					{%for i in hf.nav%}
 					<li class="mx-2 ">
-						<a href="{{i.url}}" class="tdn text-w">{{i.title}}</a>
+						<a href="{{i.url}}" class="tdn text-b th-rr">{{i.title}}</a>
 					</li>
 					{%endfor%}
 				</ul>
 			</nav>
 		</div>
+		<div class="hiddenbig">
+			<button class="p-0 m-0 border-0 bg-none" onclick="document.querySelector('.mblmenu').classList.toggle('hidden')"><i class="fa fa-bars" aria-label="menu button"></i></button>
+		</div>
 	</div>
 </header>
+<div class="bg-w mblmenu flex fy-center fx-center hidden hiddenbig">
+	<nav>
+		<ul class="p-0 m-0 nul">
+			{%for i in hf.nav%}
+			<li class="mb-50p text-center">
+				<a href="{{i.url}}" class="tdn text-b  th-rr">{{i.title}}</a>
+			</li>
+			{%endfor%}
+		</ul>
+	</nav>
+</div>

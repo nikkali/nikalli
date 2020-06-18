@@ -3,6 +3,12 @@
 .w-max
 	max-width: 992px
 	margin: auto
+.th-rr:hover
+	color: $rr
+.border-0
+	border: 0
+.bg-none
+	background: none
 .bg-b
 	background: #000
 .text-b
@@ -19,6 +25,8 @@
 	background-color: $myw
 .text-pink
 	color: $myw
+.text-bd
+	color: #555
 .flex
 	display: flex
 .fx-center
@@ -29,6 +37,13 @@
 	justify-content: space-between
 .block
 	display: block
+.hiddenmbl
+	display: none
+	@media (min-width: 550px)
+		display: block
+.hiddenbig
+	@media (min-width: 550px)
+		display: none
 .inline-block
 	display: inline-block
 .hidden
@@ -48,6 +63,47 @@
 	margin: 0
 .m-auto
 	margin: auto
+.mt-2
+	margin-top: 2em
+.mt-5
+	margin-top: 5em
+.mt-10
+	margin-top: 10px
+.mb-20p
+	margin-bottom: .2em
+.mb-50p
+	margin-bottom: .5em
+.mb-2
+	margin-bottom: 2em
+.mb-5
+	margin-bottom: 5em
+.mb-10
+	margin-bottom: 10em
 // padding
 .p-0
 	padding: 0
+.pt-2
+	padding-top: 2em
+.pb-2
+	padding-bottom: 2em
+.p2
+	padding: 0 1em
+	@media (min-width: 550px)
+		padding: 0
+
+// transitions
+.trans
+	transition: all .3s ease
+// futura
+.futura
+	font-family: "Futura", Helvetica, Arial
+// width
+.w-min
+	min-width: 400px
+.w-quat
+	width: 25%
+.w-half
+	width: 50%
+// box-shadow
+.bs-sm
+	box-shadow: 0 0 10px rgba(#000, .3)
