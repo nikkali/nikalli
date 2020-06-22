@@ -1,15 +1,23 @@
 # hero
 logo: /assets/imgs/logo-white.png
 boxes:
-  - icon: 
+  - icon: /assets/imgs/Design-Creative/4.jpg
     t: Design/Creative
-    u: 
-  - icon:
+    u: /design-creative
+  - icon: /assets/imgs/Events-Promotion/2.jpg
     t: Signage/Displays
-    u: 
-  - icon:
+    u: /signage-displays
+  - icon: /assets/imgs/Marketing-Web/5.jpg
     t: Marketing/Web
-    u: 
-  - icon:
+    u: /signage-displays
+  - icon: /assets/imgs/Signage-Displays/3.jpg
     t: Events/Promotion
-    u: 
+    u: /events-promotion
+heading: possibilities are not <span class="text-rr">endless</span>
+paras:
+  - Even if you started today, at some point you run out of possibilities.
+  - At Relevant, we have One Zillion Possibilities because we have realized that out of all the possibilities, there is ONE that fits just right for you!
+  - Our approach is unique in that we make things really simple. We don’t use big complicated words to describe what we do, who we are, and what you need.
+  - We give our clients, specific, tangible steps to take to accomplish their project.
+  - It was almost Christmas time and we decided for one of our events that we wanted dancing lights all over downtown Columbia. We were up for the challenge.
+  - We ordered lighting controllers we had never touched before, mapped out of all the lights, and started programming the show with less than 30 days to show time. It’s a long story, but at the end, tens of thousands of cheers were heard from the streets on opening night as our light show led into a fireworks display that rivaled Disney!
