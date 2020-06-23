@@ -10,9 +10,9 @@ layout: default
 		<img src="{{h.logo}}" class="m-auto">
 	</div>
 </div>
-<div class="flex boxconainer fj-bw w-max mt-2 mb-2">
+<div class="flex boxconainer fj-bw w-max mt-2 p2 mb-2">
 	{%for b in h.boxes%}
-	<div class="box w-half" style="background: url({{b.icon}}) center center;">
+	<div class="box" style="background: url({{b.icon}}) center center;">
 		<div class="w-full h-full flex fx-center fy-center trans">
 			<h3 class="text-w m-0">{{b.t}}</h3>
 			<a href="{{b.u}}" class="bg-rr text-w tdn mt-2 trans">EXPLORE MORE</a>
@@ -20,7 +20,7 @@ layout: default
 	</div>
 	{%endfor%}
 </div>
-<div class="possisec w-max mt-2 mb-2 text-center">
+<div class="possisec w-max mt-2 mb-2 text-center p2">
 	<h2 class="text-center m-0 h2">{{h.heading | upcase}}</h2>
 	{%for p in h.paras%}
 	<p class="m-0 {% if forloop.last == false %} mb-50p {%endif%}">{{p}}</p>

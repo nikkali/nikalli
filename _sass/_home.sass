@@ -12,13 +12,20 @@
 		font-weight: 300
 .boxconainer
 	flex-wrap: wrap
+	flex-direction: column
+	@media (min-width: 550px)
+		flex-direction: row
+		.box
+			width: 49.2%
+			div
+				opacity: 0
 	.box
 		height: 20em
+		margin-bottom: 1em
 		&:hover
 			div
 				opacity: 1
 		div
-			opacity: 0
 			text-align: center
 			flex-direction: column
 			background-color: rgba(#000, .8)
