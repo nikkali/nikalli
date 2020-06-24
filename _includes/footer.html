@@ -1,39 +1,61 @@
 {% assign hf = site.data.headerfooter%}
 <footer class="bg-pink pt-2 pb-2">
-	<div class="w-max p2">
-		{% if page.url != "/contact-us" %}
-		<div class="contact mb-5">
-			<div class="info flex fj-bw">
-				<div class="sec">
-					<h4 class="text-rr m-0 mb-50p">Navigation</h4>
-					<nav>
-						<ul class="p-0 m-0 nul">
-							{%for i in hf.nav%}
-							<li class="mb-50p">
-								<a href="{{i.url}}" class="tdn text-b">{{i.title}}</a>
-							</li>
-							{%endfor%}
-						</ul>
-					</nav>
-				</div>
-				<div class="sec">
-					<h4 class="text-rr m-0 mb-50p">Contact info</h4>
-					<a href="tel:{{site.phone}}" class="block tdn mb-50p text-b"><i class="fa fa-phone"></i> {{site.phone}}</a>
-					<a href="mailto:{{site.email}}" class="block tdn mb-50p text-b"><i class="fa fa-envelope"></i> {{site.email}}</a>
-					<a href="https://www.facebook.com/relevantdesign1/" class="block tdn mb-50p text-b"><i class="fa fa-facebook"></i> Facebook</a>
-					<a href="https://www.instagram.com/relevantdesign1" class="block tdn mb-50p text-b"><i class="fa fa-instagram"></i> Instagram</a>
-				</div>
-				<div class="w-half sec">
-					<!-- <h4 class="text-rr m-0 mb-50p">Address</h4> -->
-					<div class="map ">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.7697047652227!2d-89.8383884848559!3d31.25479798145828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889d681963702b83%3A0x7c35450a65dcd2f7!2s907%20N%20Main%20St%2C%20Columbia%2C%20MS%2039429%2C%20USA!5e0!3m2!1sen!2s!4v1592484403957!5m2!1sen!2s" width="992" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="bs-sm"></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-		{%endif%}
-		<div class="about text-center text-bd">
-			<p class="m-0">{{hf.about}}</p>
-		</div>
-	</div>
+  <div class="w-max p2">
+    {% if page.url != "/contact-us" %}
+    <div class="contact mb-5">
+      <div class="info flex fj-bw">
+        <div class="sec">
+          <h4 class="text-rr m-0 mb-50p">Navigation</h4>
+          <nav>
+            <ul class="p-0 m-0 nul">
+              {%for i in hf.nav%}
+              <li class="mb-50p">
+                <a href="{{i.url}}" class="tdn text-b">{{i.title}}</a>
+              </li>
+              {%endfor%}
+            </ul>
+          </nav>
+        </div>
+        <div class="sec">
+          <h4 class="text-rr m-0 mb-50p">Contact info</h4>
+          <a href="tel:{{site.phone}}" class="block tdn mb-50p text-b"
+            ><i class="fa fa-phone"></i> {{site.phone}}</a
+          >
+          <a href="mailto:{{site.email}}" class="block tdn mb-50p text-b"
+            ><i class="fa fa-envelope"></i> {{site.email}}</a
+          >
+          <a
+            href="https://www.facebook.com/relevantdesign1/"
+            class="block tdn mb-50p text-b"
+            ><i class="fa fa-facebook"></i> Facebook</a
+          >
+          <a
+            href="https://www.instagram.com/relevantdesign1"
+            class="block tdn mb-50p text-b"
+            ><i class="fa fa-instagram"></i> Instagram</a
+          >
+        </div>
+        <div class="w-half sec">
+          <!-- <h4 class="text-rr m-0 mb-50p">Address</h4> -->
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.7697047652227!2d-89.8383884848559!3d31.25479798145828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889d681963702b83%3A0x7c35450a65dcd2f7!2s907%20N%20Main%20St%2C%20Columbia%2C%20MS%2039429%2C%20USA!5e0!3m2!1sen!2s!4v1592484403957!5m2!1sen!2s"
+              width="490"
+              height="200"
+              style="border: 0;"
+              id="footermap"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              class="bs-sm"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    {%endif%}
+    <div class="about text-center text-bd">
+      <p class="m-0">{{hf.about}}</p>
+    </div>
+  </div>
 </footer>

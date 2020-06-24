@@ -1,0 +1,16 @@
+---
+layout: default
+title: Design/Creative
+permalink: /design-creative
+---
+
+{% assign h = site.data.home%}
+<div class="flex boxconainer fj-bw w-max mt-2 p2 mb-2">
+  {%for b in h.boxes%}
+  <div class="box" style="background: url({{b.icon}}) center center;">
+    <div class="w-full h-full flex fx-center fy-center trans">
+      <h3 class="text-w m-0">{{b.t}}</h3>
+    </div>
+  </div>
+  {%endfor%}
+</div>
