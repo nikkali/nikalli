@@ -1,24 +1,34 @@
 # design
 design:
   - title: MARKETING DESIGN
-    bgimg: /
+    bgimg: Design-Creative/1.jpg
     sub: PREMIER CONSTRUCTION
     text:
       - This is so much fun because there are literally ZILLIONS OF PRODUCTS!
       - We have narrowed them down the most high impact, high
   - title: LOGO DESIGN
-    bgimg: /
+    bgimg: Design-Creative/1.jpg
     sub: PREMIER CONSTRUCTION
     text:
       - Logos can be simple or quite complicated, but the process doesn’t have to be that way! The biggest challenge we face in delivering a successful logo design to our clients is “What is in your Head?”
       - We understand how to get it out and help us SEE what you See so we can put it on paper for you!
   - title: CHURCH DESIGN
-    bgimg: /
+    bgimg: Design-Creative/1.jpg
     sub: WOODLAWN
     text:
       - Church Design is important because it is so delicate. One slip up can mean the difference etween a Church Shirt Fundraiser and a Church Shit Fundraiser... ! Yeah that happened...
+    images:
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
+      - assets/imgs/Design-Creative/insta
   - title: BRANDING
-    bgimg: /
+    bgimg: Design-Creative/1.jpg
     sub: MARION COUNTY SCHOOL DISTRICT
     text:
       - One of our proudest moments. This design came to me in the middle of the night... Yes, I bring this work home with me sometimes. It was because we just couldn’t nail it!
@@ -55,8 +65,7 @@ marketing:
     bgimg: /
     sub: WOODLAWN, NEW HEBRON
     text:
-      - We love helping churches! Especially when it comes to the world wide web, there are ZILLIONS
-OF POSSIBILITIES for churches!
+      - We love helping churches! Especially when it comes to the world wide web, there are ZILLIONS OF POSSIBILITIES for churches!
       - We believe in making things simple! We don’t templatize church sights, but we do walk each church leader/pastor through a very simple guide that give us all the information needed to launch a very simple starter website for churches. We don’t overcomplicate things!
       - This is great because every church is on a budget, so we have made is a very affordable next step for every church that either recognizes the need to go online, or already has a presence online and needs to get modern.
       - There are some churches we can’t help, unfortunately it’s those that don’t realize the importance of being online. We’ve been building websites for over a decade, but it wasn’t until my wife, Maggie, and I went on vacation that we realize the impact and importance of a church website. There were four options for places to visit and we chose the one with church that we thought might not shake a snake at us when when went in the front door.

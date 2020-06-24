@@ -1,0 +1,36 @@
+.pagesec
+    h2
+        font-weight: bold
+    h4
+        line-height: 1
+    @media (min-width: 550px)
+        width: 75%
+        margin: auto
+        .gallery
+            flex-wrap: wrap
+            img
+                width: 30%
+            
+    
+hr
+  border: 0
+  clear: both
+  display: block
+  margin: 2.4rem auto
+  text-align: center
+  width: 100%
+.progress
+  background: rgba(1, 15, 30, 0.1)
+  height: 1px
+  overflow: hidden
+  position: relative
+
+.progress::before
+  background: $rr
+  content: ""
+  display: block
+  height: 1px
+  position: absolute
+  left: 50%
+  transform: translateX(-50%)
+  width: 80px
