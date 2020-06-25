@@ -4,14 +4,31 @@
     h4
         line-height: 1
     @media (min-width: 550px)
-        width: 75%
-        margin: auto
-        .gallery
-            flex-wrap: wrap
-            img
-                width: 30%
-            
-    
+      width: 75%
+      margin: auto
+    .gallery
+      flex-wrap: wrap
+    .thumb
+      border-radius: 5px
+      width: 48%
+      @media (min-width: 550px)
+        width: 31%
+
+.popimg
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  overflow: hidden
+  width: 96%
+  @media (min-width: 550px)
+    width: 80%
+    height: 80%    
+  img
+    height: auto
+  button
+    background-color: rgba(#000, .5)
+
 hr
   border: 0
   clear: both

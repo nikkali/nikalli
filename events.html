@@ -3,3 +3,35 @@ layout: default
 title: Events/Promotions
 permalink: /events-promotion
 ---
+
+{% assign h = site.data.pages%}
+<div class="flex boxconainer fj-bw w-max mt-2 p2 mb-2">
+  {%for b in h.events%}
+  <div
+    class="box"
+    style="background: url(/assets/imgs/{{b.bgimg}}) center center;"
+  >
+    <div class="w-full h-full flex fx-center fy-center trans">
+      <h3 class="text-w m-0">{{b.title}}</h3>
+      <a href="#{{b.title | downcase | split: " "  }}" class="bg-rr text-w tdn mt-2 trans">SEE MORE</a>
+    </div>
+  </div>
+  {%endfor%}
+</div>
+<div class="w-max mt-2 p2 mb-2">
+  {%for b in h.events%}
+  <div class="text-center pagesec ">
+      <h2 class="text-b m-0" id="{{b.title | downcase | split: " "  }}">{{b.title}}</h2>
+      <h4 class="text-b m-0 mb-50p text-rr">{{b.sub}}</h4>
+      {%for p in b.text%}
+      <p class="m-0 {%if forloop.last == false%}mb-50p{%endif%}">{{p}}</p>
+      {%endfor%}
+
+    {%if forloop.last == false%}
+    <hr class="progress mt-2 mb-2">
+    {%endif%}
+
+  </div>
+  {%endfor%}
+
+</div>

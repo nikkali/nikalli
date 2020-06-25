@@ -30,7 +30,7 @@ permalink: /design-creative
         {%if b.images%}
         <div class="flex fj-bw gallery mt-2">
             {%for img in b.images %}
-            <img src="/{{img}}/{{forloop.index}}.jpg" class="mb-2 bs-sm">
+            <img src="/{{img}}" class="mb-2 thumb" onclick="showbig(this)">
             {%endfor%}
         </div>
         {%endif%}
