@@ -28,6 +28,13 @@ permalink: /signage-displays
       <p class="m-0 {%if forloop.last == false%}mb-50p{%endif%}">{{p}}</p>
       {%endfor%}
 
+      {%if b.images%}
+        <div class="flex fj-bw gallery mt-2">
+            {%for img in b.images %}
+            <img src="/{{img}}" class="mb-2 thumb" onclick="showbig(this)">
+            {%endfor%}
+        </div>
+      {%endif%}
     {%if forloop.last == false%}
     <hr class="progress mt-2 mb-2">
     {%endif%}

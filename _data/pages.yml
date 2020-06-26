@@ -6,33 +6,39 @@ design:
     text:
       - This is so much fun because there are literally ZILLIONS OF PRODUCTS!
       - We have narrowed them down the most high impact, high
+    images:
+      - assets/imgs/Design-Creative/gallery/1.jpg
+      - assets/imgs/Design-Creative/gallery/2.jpg
+      - assets/imgs/Design-Creative/gallery/3.jpg
   - title: LOGO DESIGN
     bgimg: Design-Creative/1.jpg
     sub: PREMIER CONSTRUCTION
     text:
       - Logos can be simple or quite complicated, but the process doesn’t have to be that way! The biggest challenge we face in delivering a successful logo design to our clients is “What is in your Head?”
       - We understand how to get it out and help us SEE what you See so we can put it on paper for you!
+    images:
+      - assets/imgs/Design-Creative/gallery/1.jpg
+      - assets/imgs/Design-Creative/gallery/2.jpg
+      - assets/imgs/Design-Creative/gallery/3.jpg
   - title: CHURCH DESIGN
     bgimg: Design-Creative/1.jpg
     sub: WOODLAWN
     text:
       - Church Design is important because it is so delicate. One slip up can mean the difference etween a Church Shirt Fundraiser and a Church Shit Fundraiser... ! Yeah that happened...
     images:
-      - assets/imgs/Design-Creative/insta/1.jpg
-      - assets/imgs/Design-Creative/insta/2.jpg
-      - assets/imgs/Design-Creative/insta/3.jpg
-      - assets/imgs/Design-Creative/insta/4.jpg
-      - assets/imgs/Design-Creative/insta/5.jpg
-      - assets/imgs/Design-Creative/insta/6.jpg
-      - assets/imgs/Design-Creative/insta/7.jpg
-      - assets/imgs/Design-Creative/insta/8.jpg
-      - assets/imgs/Design-Creative/insta/9.jpg
+      - assets/imgs/Design-Creative/gallery/1.jpg
+      - assets/imgs/Design-Creative/gallery/2.jpg
+      - assets/imgs/Design-Creative/gallery/3.jpg
   - title: BRANDING
     bgimg: Design-Creative/1.jpg
     sub: MARION COUNTY SCHOOL DISTRICT
     text:
       - One of our proudest moments. This design came to me in the middle of the night... Yes, I bring this work home with me sometimes. It was because we just couldn’t nail it!
       - The battle across the river, the rival colors. It all came together into one winning campaign.
+    images:
+      - assets/imgs/Design-Creative/gallery/1.jpg
+      - assets/imgs/Design-Creative/gallery/2.jpg
+      - assets/imgs/Design-Creative/gallery/3.jpg
 # signage
 signage:
   - title: TRUCKING
@@ -42,16 +48,28 @@ signage:
       - America moves at the speed of the Trucking industry. We HAVE to keep them going! We get texts often needing logos and decals with USDOT numbers needing them fast so they don’t have to sit long.
       - We’ve traveled from Texas to New York installing decals on Trucks to keep these guys making money!
       - Carry On and Truck On
+    images:
+      - assets/imgs/Signage-Displays/gallery/1.jpg
+      - assets/imgs/Signage-Displays/gallery/2.jpg
+      - assets/imgs/Signage-Displays/gallery/3.jpg
   - title: MEDICAL
     bgimg: Events-Promotion/1.jpg
     sub: HATTIESBURG CLINIC, FAMILY HEALTH CARE CLINIC
     text:
       - We have had a long standing relationship with Hattiesburg clinic. Every week we get anywhere from one to dozens of emails for store front decals, Interior Signage for Displays, Metal Message Signage, or Acrylic Clinic Signs.
+    images:
+      - assets/imgs/Signage-Displays/gallery/1.jpg
+      - assets/imgs/Signage-Displays/gallery/2.jpg
+      - assets/imgs/Signage-Displays/gallery/3.jpg
   - title: CONSTRUCTION
     bgimg: Events-Promotion/1.jpg
     sub: 8 DAYS OF HOPE, PREMIER
     text:
       - Most of our work serves the hard working Americans fighting the heat either erecting a commercial building, or fixing a home after a devastating disaster. We salute you!
+    images:
+      - assets/imgs/Signage-Displays/gallery/1.jpg
+      - assets/imgs/Signage-Displays/gallery/2.jpg
+      - assets/imgs/Signage-Displays/gallery/3.jpg
   - title: RETAIL
     bgimg: Events-Promotion/1.jpg
     sub: DOWNTOWN COLUMBIA MERCHANTS, PLAIN & FANCI, CHURCH ON MAIN WINDOWS, ALLEY CATS
@@ -59,6 +77,10 @@ signage:
       - Main Street America is the heart of our economy. Great Signage means the people inside those four walls care and take pride in their merchandise and the customers they serve.
       - I hate watching a business owner “cheap out” on their Identification signage. I mean come on... If your reason for purchasing a cheap sign is, “I can’t afford a nice sign” You may not be in business very long. There are exceptions to every rule and spending a small fortune on a store front sign doesn’t mean you will be successful.
       - There is a reasonable measure every business owner can take to make a responsible affordable signage within  their means that makes a statement. Because you make one either way...
+    images:
+      - assets/imgs/Signage-Displays/gallery/1.jpg
+      - assets/imgs/Signage-Displays/gallery/2.jpg
+      - assets/imgs/Signage-Displays/gallery/3.jpg
 # marketing
 marketing:
   - title: CHURCH
@@ -71,23 +93,36 @@ marketing:
       - There are some churches we can’t help, unfortunately it’s those that don’t realize the importance of being online. We’ve been building websites for over a decade, but it wasn’t until my wife, Maggie, and I went on vacation that we realize the impact and importance of a church website. There were four options for places to visit and we chose the one with church that we thought might not shake a snake at us when when went in the front door.
       - How did we decide this? By looking at their website. The website that had fresh content, nice photos, and bright colors was what we chose. Not because we are website designers, but because the others looked like something off deliverance...
       - It’s important to invest some time, attention, and effort into your church website.
+    images:
+      - assets/imgs/Marketing-Web/gallery/1.jpg
+      - assets/imgs/Marketing-Web/gallery/2.jpg
+      - assets/imgs/Marketing-Web/gallery/3.jpg
   - title: EDUCATION
     bgimg: Marketing-Web/1.jpg
     sub: MARION COUNTY SCHOOL DISTRICT
     text:
       - Marion County School District needed an overhaul on Messaging and Website. We pulled out all the stops and Created a very sleek looking website to match their brand we created.
       - Check out their brand we created here (links to Design Page)
+    images:
+      - assets/imgs/Marketing-Web/gallery/1.jpg
+      - assets/imgs/Marketing-Web/gallery/2.jpg
+      - assets/imgs/Marketing-Web/gallery/3.jpg
   - title: AUTHORS
     bgimg: Marketing-Web/1.jpg
     sub: MAXIMILLION’S TREASURES
     text:
       - We love working with Authors. Heck I even wrote a book that i haven’t finished yet... It’s called LOOK AT GOD The transformation journey God has taken me on through dealing with an absent Father. You can download Chapter one here
       - Keep in mind, I’m a non-writer, writer. That means I am not good at spelling or grammar, but I love to talk... lol
+    images:
+      - assets/imgs/Marketing-Web/gallery/1.jpg
+      - assets/imgs/Marketing-Web/gallery/2.jpg
+      - assets/imgs/Marketing-Web/gallery/3.jpg
   - title: CONSTRUCTION
     bgimg: Marketing-Web/1.jpg
     sub: H&P WELLS, PREMIER CONSTRUCTION, QUALITY MANUFACTURING, HELANBAK
     text:
       - The world grows because of Construction, and we support this industry by helping already established companies take it to the next level or by giving the next startup the tools and the direction to be successful.
+    # note: You asked for sample work. So here you'll add screenshot or thumbnail image and link
     samples:
       - url: https://firearms.helanbak.com/
         thumb: Marketing-Web/thumbs/1.jpg
@@ -117,19 +152,35 @@ events:
     text:
       - We planned the network for the Christmas Lighting show in Downtown Columbia, MS as well as configured and purchased a large “JUMBOTRON” in the middle of downtown that was 12’ wide and 20’ tall to display sponsors throughout the season while patrons were ice skating downtown.
       - We printed banners for sponsors on the stage for New Years Eve Event as well as Freedom Fest, and designed the food booth signage to create a similar feel to Disney World.
+    images:
+      - assets/imgs/Events-Promotion/gallery/1.jpg
+      - assets/imgs/Events-Promotion/gallery/2.jpg
+      - assets/imgs/Events-Promotion/gallery/3.jpg
   - title: CONSULTING
     bgimg: Signage-Displays/1.jpg
     sub: FACEBOOK PAGES
     text:
       - We also consulted and strategized with the marketing team to drive over 200,000 visitors to Columbia, MS during Christmas and New Years(a town of 6,500 people). Which tripled our visits from the previous year. We worked with multiple local campaigns for top issues and candidates to design the pages and steer them into leading the competition and winning elections.
+    images:
+      - assets/imgs/Events-Promotion/gallery/1.jpg
+      - assets/imgs/Events-Promotion/gallery/2.jpg
+      - assets/imgs/Events-Promotion/gallery/3.jpg
   - title: WEST MARION SENIOR
     bgimg: Signage-Displays/1.jpg
     sub: BANNERS AND FIREWORKS
     text:
       - Because of COVID-19, Seniors all across America could not have a traditional graduation. We worked with the Administration of two of the local schools to create an event like none other. An awards ceremony of sorts with hundreds of banners displayed on a brick wall that they could drive up to see. The night of the event, we designed a lighting show and ended the night with Fireworks!
+    images:
+      - assets/imgs/Events-Promotion/gallery/1.jpg
+      - assets/imgs/Events-Promotion/gallery/2.jpg
+      - assets/imgs/Events-Promotion/gallery/3.jpg
   - title: CHURCH MEDIA
     bgimg: Signage-Displays/1.jpg
     sub: WOODLAWN
     text:
       - For many years now, our knowledge has trickled over to helping Churches get setup with Media to broadcast to the world. I served as the Media Coordinated for Woodlawn Church in Columbia MS for over a year until a tornado touched down in our hometown and began running the operations center.
       - Church Media is an overlooked investment, and micromanaged when it comes to mistakes. We have helped zillions of churches make the right decisions and setup their media.
+    images:
+      - assets/imgs/Events-Promotion/gallery/1.jpg
+      - assets/imgs/Events-Promotion/gallery/2.jpg
+      - assets/imgs/Events-Promotion/gallery/3.jpg

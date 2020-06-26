@@ -4,13 +4,13 @@ boxes:
   - icon: /assets/imgs/Design-Creative/4.jpg
     t: Design/Creative
     u: /design-creative
-  - icon: /assets/imgs/Events-Promotion/2.jpg
+  - icon: /assets/imgs/Signage-Displays/3.jpg
     t: Signage/Displays
     u: /signage-displays
   - icon: /assets/imgs/Marketing-Web/5.jpg
     t: Marketing/Web
     u: /signage-displays
-  - icon: /assets/imgs/Signage-Displays/3.jpg
+  - icon: /assets/imgs/Events-Promotion/2.jpg
     t: Events/Promotion
     u: /events-promotion
 heading: possibilities are not <span class="text-rr">endless</span>
