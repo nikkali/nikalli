@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "relevant1.zil" # the base hostname & protocol for your site, e.g. http://example.com
 phone: "+1 601 736 0663"
-email: "ideas@relevant1.zil"
+email: "discover@relevantdesign.cc"
 address: "907 Main St, Columbia, MS 39429"
 # Build settings
 # theme: minima
