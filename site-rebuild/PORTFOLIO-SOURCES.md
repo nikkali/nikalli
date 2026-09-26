@@ -8,12 +8,12 @@ Images come from this repository's `assets/imgs/` archive: Jones truck graphics,
 
 ## Existing design archive in Google Drive
 
-Selected files: `t-shirt-mockup-featuring-a-bearded-man-leaning-against-a-rusty-wall-32841 (1).png` (Quick Cash Pawn), `unisex-t-shirt-mockup-featuring-a-happy-girl-with-a-trendy-outfit-22962 (2).png` (Bug Me), `Royalty Painting Business Cards 2017 mockup new.png`, and `COLUMBIA ACADEMY DRUMLINE SHIRTS 2026.png`.
+Selected files: `t-shirt-mockup-featuring-a-bearded-man-leaning-against-a-rusty-wall-32841 (1).png` (Quick Cash Pawn), `unisex-t-shirt-mockup-featuring-a-happy-girl-with-a-trendy-outfit-22962 (2).png` (Bug Me), `Royalty Painting Business Cards 2017 mockup new.png`, `COLUMBIA ACADEMY DRUMLINE SHIRTS 2026.png`, and `b&d AIR HYDRAULIC NCR FORMS.jpg` (blank invoice design proof).
 
 Other retrieved files were reviewed but not used. Public Facebook retrieval was blocked; no Facebook images were scraped or attributed without inspection. Private customer records, work orders, and financial material were excluded.
 
 ## Implementation
 
-15 additional optimized WebP images; responsive 640px versions where useful; intrinsic image dimensions; lazy loading below the fold; an 18-item filterable portfolio with an accessible full-image viewer; service-specific galleries; descriptive captions and alt text; image sitemap; service and image structured data; canonical production URLs; existing redirects retained.
+16 additional optimized WebP images; responsive 640px versions where useful; intrinsic image dimensions; lazy loading below the fold; a 19-item filterable portfolio with an accessible full-image viewer; service-specific galleries; descriptive captions and alt text; image sitemap; service and image structured data; canonical production URLs; existing redirects retained. The image check rejects zero-byte or invalid WebP assets, and the repaired Richland Creek image uses a new filename to avoid a stale phone cache.
 
 Keep generated `dist/` and source changes together. Build with `SITE_URL=https://relevantdesign.cc python3 build.py`, then run `python3 verify.py` and `node --check dist/site.js`. Netlify publishes the committed `site-rebuild/dist` output.
