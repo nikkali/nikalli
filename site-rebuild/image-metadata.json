@@ -29,11 +29,6 @@
     "height": 542,
     "source": "assets/imgs/Design-Creative/1.jpg"
   },
-  "richland-apparel": {
-    "width": 1600,
-    "height": 1600,
-    "source": "assets/imgs/Design-Creative/2.jpg"
-  },
   "premiere-brand": {
     "width": 569,
     "height": 563,
@@ -89,5 +84,10 @@
   "orchard-park": {
     "width": 1100,
     "height": 704
+  },
+  "richland-shirt-design": {
+    "width": 1600,
+    "height": 1600,
+    "source": "assets/imgs/Design-Creative/2.jpg"
   }
 }
