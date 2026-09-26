@@ -18,6 +18,10 @@ class Page(HTMLParser):
   if tag=='img':self.images.append(a)
   for attr in ['href','src']:
    if a.get(attr,'').startswith('/'):self.refs.append(a[attr])
+  if tag=='img' and a.get('srcset'):
+   self.refs.extend(candidate.strip().split()[0] for candidate in a['srcset'].split(','))
+  if a.get('data-photo','').startswith('/'):
+   self.refs.append(a['data-photo'])
  def handle_data(self,s):
   if self.ld_open:self.ld.append(s)
  def handle_endtag(self,tag):
@@ -38,10 +42,17 @@ for route in PAGES:
   parsed=urlparse(ref);path=ROOT/unquote(parsed.path).lstrip('/')
   if path.is_dir():path=path/'index.html'
   if not path.exists():errors.append(f'{route}: missing resource {ref}')
+  elif path.suffix=='.webp':
+   data=path.read_bytes()
+   if len(data)<20 or data[:4]!=b'RIFF' or data[8:12]!=b'WEBP':errors.append(f'{route}: invalid WebP {ref}')
   elif parsed.fragment and path.suffix=='.html':
    target=Page();target.feed(path.read_text())
    if parsed.fragment not in target.ids:errors.append(f'{route}: missing anchor {ref}')
 ET.parse(ROOT/'sitemap.xml')
+ET.parse(ROOT/'image-sitemap.xml')
+for path in (ROOT/'assets').glob('*.webp'):
+ data=path.read_bytes()
+ if len(data)<20 or data[:4]!=b'RIFF' or data[8:12]!=b'WEBP':errors.append(f'invalid WebP asset: {path.name}')
 for file in (ROOT/'assets').glob('*.svg'):ET.parse(file)
 assert not errors,'\n'.join(errors)
 print(f'PASS: {len(PAGES)} pages; one H1 each; unique descriptions; canonical and JSON-LD metadata; local links, anchors, images, styles, scripts; XML and SVG syntax.')
