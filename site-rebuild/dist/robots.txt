@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://relevantdesign.cc/sitemap.xml
+Sitemap: https://relevantdesign.cc/image-sitemap.xml

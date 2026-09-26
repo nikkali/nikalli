@@ -1,0 +1,93 @@
+{
+  "jones-truck": {
+    "width": 1600,
+    "height": 900,
+    "source": "assets/imgs/Signage-Displays/4.jpg"
+  },
+  "helanbak-vehicle": {
+    "width": 584,
+    "height": 578,
+    "source": "assets/imgs/Marketing-Web/5.jpg"
+  },
+  "keep-moving": {
+    "width": 1600,
+    "height": 656,
+    "source": "assets/imgs/Signage-Displays/5.jpg"
+  },
+  "woodlawn-banners": {
+    "width": 1080,
+    "height": 1080,
+    "source": "assets/imgs/Design-Creative/gallery/2.jpg"
+  },
+  "woodlawn-welcome": {
+    "width": 653,
+    "height": 653,
+    "source": "assets/imgs/Design-Creative/gallery/1.jpg"
+  },
+  "marion-county": {
+    "width": 543,
+    "height": 542,
+    "source": "assets/imgs/Design-Creative/1.jpg"
+  },
+  "richland-apparel": {
+    "width": 1600,
+    "height": 1600,
+    "source": "assets/imgs/Design-Creative/2.jpg"
+  },
+  "premiere-brand": {
+    "width": 569,
+    "height": 563,
+    "source": "assets/imgs/Design-Creative/3.jpg"
+  },
+  "pharmacy-flags": {
+    "width": 1080,
+    "height": 1398,
+    "source": "assets/imgs/Design-Creative/5.jpg"
+  },
+  "stateline-brand": {
+    "width": 581,
+    "height": 578,
+    "source": "assets/imgs/Marketing-Web/2.jpg"
+  },
+  "event-install": {
+    "width": 721,
+    "height": 960,
+    "source": "assets/imgs/Events-Promotion/1.jpg"
+  },
+  "quick-cash-apparel": {
+    "width": 1067,
+    "height": 1600,
+    "source": "Google Drive artwork archive"
+  },
+  "bug-me-apparel": {
+    "width": 1067,
+    "height": 1600,
+    "source": "Google Drive artwork archive"
+  },
+  "royalty-cards": {
+    "width": 1600,
+    "height": 1164,
+    "source": "Google Drive artwork archive"
+  },
+  "columbia-drumline": {
+    "width": 1538,
+    "height": 1600,
+    "source": "Google Drive artwork archive"
+  },
+  "signage": {
+    "width": 1000,
+    "height": 667
+  },
+  "events": {
+    "width": 1350,
+    "height": 900
+  },
+  "creative": {
+    "width": 580,
+    "height": 575
+  },
+  "orchard-park": {
+    "width": 1100,
+    "height": 704
+  }
+}
